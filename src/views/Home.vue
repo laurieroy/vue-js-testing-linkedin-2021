@@ -1,5 +1,5 @@
 <template>
-  
+
       <div class="container">
         <!-- <div class="row">
           <div class="col-md-12">
@@ -40,18 +40,14 @@
                         </div>
                       </form>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
-              
-              
-              
-              
+
             </div>
         </div>
 
-    
     </div>
 </template>
 
@@ -60,11 +56,11 @@
 export default {
   name: 'Home',
   components: {
-    
+
   },
-  methods : {
-    login(){
-      this.$router.push({path : "profile"})
+  methods: {
+    login () {
+      this.$router.push({ path: 'profile' })
     }
   }
 }
@@ -75,7 +71,6 @@ export default {
   padding: 0;
   margin: 0;
 }
-
 
 #banner-section{
   background-image: url("/home_page_back.jpg");
